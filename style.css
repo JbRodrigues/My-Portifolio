@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4D5061;
+}
+
+header{
+    display: flex;
+    margin: 5px;
+    background-color: #30323D;
+    height: 15%;
+}
+
+main{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    height: 70%;
+    width: auto;
+}
+
+section{
+    margin: 2px;
+    padding: 2px;
+    border-bottom: 1px solid #E8C547;
+}
+
+footer{
+    display: flex;
+    margin: 5px;
+    background-color: #30323D;
+    height: 15%;
+    width: auto;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
