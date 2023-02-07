@@ -56,7 +56,6 @@ li {
 }
 
 .header-main {
-
     margin-top: 100px;
     color: #FFFFFF;
 }
@@ -71,15 +70,13 @@ li {
     align-items: center;
     flex-direction: row;
     margin-top: 70px;
-   
-
 }
 
 .btn {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #151515;;
+    background-color: #151515;
     width: 150px;
     height: 50px;
     border: 2px solid;
@@ -88,14 +85,62 @@ li {
     margin-right: 30px;
 }
 
-#linkedin{
+.border-color-purple {
     border-image: linear-gradient(to right, #D24074, #6518B4) 1;
 }
 
-#github{
+.border-color-blue {
     border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
 }
 
-.btn>img{
+.btn>img {
     height: 20px;
 }
+
+/*######################## END OF HEADER #################################*/
+
+
+.about-me {
+    background-color: #09090B;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.sobre-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #FFFFFF;
+    margin: 100px 183px 98px 180px;
+}
+
+#photo {
+    width: 367px;
+    height: 367px;
+    margin: 100px 183px 98px 180px;
+    border-left: 4px solid #00D2DF;
+
+}
+
+.sobre-info>h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.sobre-info>h3 {
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+.sobre-info>p {
+    width: 530px;
+    height: 96px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
