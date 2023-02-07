@@ -52,9 +52,16 @@ ul {
 li {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 0.2rem;
     border-right: 1px solid #151515;
     width: 150px;
+    height: 50px;
+}
+
+li:hover{
+    background-color: #09090B;
+    border-bottom: 4px solid #10D7E2;
 }
 
 .header-main {
@@ -91,8 +98,16 @@ li {
     border-image: linear-gradient(to right, #D24074, #6518B4) 1;
 }
 
+.border-color-purple:hover{
+    border-image: linear-gradient(to right, #6518B4, #D24074) 1;
+}
+
 .border-color-blue {
     border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
+}
+
+.border-color-blue:hover{
+    border-image: linear-gradient(to right, #10D7E2, #9358F7) 1;
 }
 
 .btn>img {
@@ -233,6 +248,82 @@ li {
     font-weight: 300;
     font-size: 18px;
     color: #C4C4C4;
+}
+
+/*######################## END OF EXPERIENCES#################################*/
+
+/*######################## PROJECTS #################################*/
+
+.projects{
+    background-color: #09090B;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects>h1{
+    font-weight: 600;
+    font-size: 24px;
+    margin: 100px 1133px 60px 180px;
+}
+
+
+
+.project-colum{
+    display: flex;
+    flex-direction: row;
+    margin: 0 20px 40px 180px;
+}
+
+.project-photo{
+    width: 530px;
+    height: 200px;
+    border-left: 4px solid #00D2DF;
+    margin-bottom: 40px;
+    background-color: #0C0C0C;
+}
+
+.project-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.project-desc{
+    font-weight: 300;
+    font-size: 16px;
+    color: #C4C4C4;
+    margin-bottom: 26px;
+}
+
+.btn-project{
+    width: 141px;
+    height: 45px;
+}
+
+/*######################## END OF PROJECTS #################################*/
+
+/*######################## FOOTER #################################*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #C4C4C4;
+    margin: 41px 0 40px 178px;
+}
+
+#footer-logo{
+    margin-left: 13px;
 }
 
 
