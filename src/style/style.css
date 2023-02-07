@@ -14,6 +14,8 @@ body {
     font-family: Inter;
 }
 
+/*######################## HEADER #################################*/
+
 header {
     display: flex;
     flex-direction: column;
@@ -99,22 +101,21 @@ li {
 
 /*######################## END OF HEADER #################################*/
 
+/*########################## ABOUT ME ####################################*/
 
 .about-me {
     background-color: #09090B;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: row;
 }
 
 .sobre-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: column;
     color: #FFFFFF;
-    margin: 100px 183px 98px 180px;
 }
 
 #photo {
@@ -122,17 +123,18 @@ li {
     height: 367px;
     margin: 100px 183px 98px 180px;
     border-left: 4px solid #00D2DF;
-
 }
 
 .sobre-info>h2 {
     font-size: 24px;
     margin-bottom: 40px;
+
 }
 
 .sobre-info>h3 {
-    font-size: 20px;
+    font-size: 21px;
     margin-bottom: 21px;
+
 }
 
 .sobre-info>p {
@@ -140,7 +142,7 @@ li {
     height: 96px;
     font-weight: 300;
     font-size: 18px;
+
 }
 
-
-
+/*######################## END OF ABOUT ME #################################*/
