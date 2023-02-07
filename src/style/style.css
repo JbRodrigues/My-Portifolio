@@ -148,33 +148,61 @@ li {
 
 /*######################## END OF ABOUT ME #################################*/
 
-
-.experiencias{
+.experiencias {
     color: #FFFFFF;
-    margin: 100px 1102px 26px 180px;
 }
 
-.experiencias>h1{
+#exph2 {
+    margin: 100px 1102px 26px 180px;
+    font-weight: 600;
     font-size: 24px;
 }
 
-.exp-topics{
+.exp-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 180px;
+    margin-right: 88px;
+}
+
+.exp-topics {
     width: 193px;
     height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #09090B;
-    margin-top: 26px;
     color: #C4C4C4;
     font-weight: 300;
     font-size: 18px;
+    border: none;
+    background-color: #0C0C0C;
 }
 
-.exp-topics:active{
+.exp-topics:active {
     border-left: 2px solid #00D2DF;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
+    background: #09090B;
 }
+
+.exp-info{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border: 1px solid red;
+}
+
+#exp-title{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#exp-data{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
