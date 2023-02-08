@@ -2,11 +2,17 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 @font-face {
     font-family: Inter;
     src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+html {
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -19,13 +25,18 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    margin: 2.8rem 180px;
+    margin: 40px 180px;
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+}
+
+a:visited {
+    color: #FFFFFF;
 }
 
 .line {
@@ -35,10 +46,12 @@ nav {
 }
 
 .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #00D2DF;
     font-size: 24px;
 }
-
 
 ul {
     display: flex;
@@ -59,14 +72,16 @@ li {
     height: 50px;
 }
 
-li:hover{
+li:hover {
     background-color: #09090B;
     border-bottom: 4px solid #10D7E2;
 }
 
 .header-main {
     margin-top: 100px;
+    margin-left: 180px;
     color: #FFFFFF;
+
 }
 
 .name {
@@ -94,11 +109,15 @@ li:hover{
     margin-right: 30px;
 }
 
+#btn-header {
+    margin-bottom: 220px;
+}
+
 .border-color-purple {
     border-image: linear-gradient(to right, #D24074, #6518B4) 1;
 }
 
-.border-color-purple:hover{
+.border-color-purple:hover {
     border-image: linear-gradient(to right, #6518B4, #D24074) 1;
 }
 
@@ -106,7 +125,7 @@ li:hover{
     border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
 }
 
-.border-color-blue:hover{
+.border-color-blue:hover {
     border-image: linear-gradient(to right, #10D7E2, #9358F7) 1;
 }
 
@@ -174,7 +193,7 @@ li:hover{
     font-size: 24px;
 }
 
-.exp-buttons{
+.exp-buttons {
     display: flex;
     flex-direction: column;
     margin: 100px 0 337px 180px;
@@ -205,46 +224,46 @@ li:hover{
     background: #09090B;
 }
 
-.exp-info{
+.exp-info {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     border: 1px solid red;
 }
 
-.exp-1{
+.exp-1 {
     display: flex;
     flex-direction: column;
 
 }
 
-#exp-title{
+#exp-title {
     font-weight: 500;
     font-size: 24px;
     margin: 155px 342px 26px 88px;
 
 }
 
-#exp-data{
+#exp-data {
     font-weight: 500;
     font-size: 16px;
     margin: 0 342px 26px 88px;
 }
 
-.exp-desc{
+.exp-desc {
     display: flex;
     flex-direction: column;
     margin: 0 343px 241px 88px;
 }
 
-#exp-company{
+#exp-company {
     margin-bottom: 26px;
     color: #00D2DF;
     font-weight: 500;
     font-size: 16px;
 }
 
-#exp-job{
+#exp-job {
     font-weight: 300;
     font-size: 18px;
     color: #C4C4C4;
@@ -254,7 +273,7 @@ li:hover{
 
 /*######################## PROJECTS #################################*/
 
-.projects{
+.projects {
     background-color: #09090B;
     color: #FFFFFF;
     display: flex;
@@ -262,7 +281,7 @@ li:hover{
     width: 100%;
 }
 
-.projects>h1{
+.projects>h1 {
     font-weight: 600;
     font-size: 24px;
     margin: 100px 1133px 60px 180px;
@@ -270,13 +289,13 @@ li:hover{
 
 
 
-.project-colum{
+.project-colum {
     display: flex;
     flex-direction: row;
     margin: 0 20px 40px 180px;
 }
 
-.project-photo{
+.project-photo {
     width: 530px;
     height: 200px;
     border-left: 4px solid #00D2DF;
@@ -284,20 +303,20 @@ li:hover{
     background-color: #0C0C0C;
 }
 
-.project-title{
+.project-title {
     font-weight: 500;
     font-size: 24px;
     margin-bottom: 30px;
 }
 
-.project-desc{
+.project-desc {
     font-weight: 300;
     font-size: 16px;
     color: #C4C4C4;
     margin-bottom: 26px;
 }
 
-.btn-project{
+.btn-project {
     width: 141px;
     height: 45px;
 }
@@ -306,13 +325,13 @@ li:hover{
 
 /*######################## FOOTER #################################*/
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
-.footer-info{
+.footer-info {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -322,8 +341,6 @@ footer{
     margin: 41px 0 40px 178px;
 }
 
-#footer-logo{
+#footer-logo {
     margin-left: 13px;
 }
-
-
