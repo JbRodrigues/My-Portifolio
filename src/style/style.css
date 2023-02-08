@@ -191,6 +191,14 @@ ul {
 
 }
 
+.about-desc{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #C4C4C4;
+
+}
+
 /*######################## END OF ABOUT ME #################################*/
 
 .experiencias {
@@ -233,6 +241,7 @@ ul {
     font-weight: 500;
     font-size: 18px;
     background: #09090B;
+    color: #00D2DF;
 }
 
 .exp-info {
