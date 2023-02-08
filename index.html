@@ -6,17 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style/style.css">
-    <title>My-Portifolio</title>
+    <!-- Favicon from https://www.flaticon.com/free-icons/polymer -->
+    <link rel="icon" type="image/x-icon" href="src/assets/nanotechnology.png">
+    <title>Julio Bisaia</title>
 </head>
 
 <body>
-    <header>
+    <header >
         <nav>
             <h1 class="title"> Portifolio </h1>
             <ul class="list">
-                <li> <a href="#about-me">Sobre</a></li>
-                <li> <a href="#experiencias">Experiencias</a></li>
-                <li> <a href="#projects">Projetos</a></li>
+                <a class="nav-bar" href="#header-main">Home</a>
+                <a class="nav-bar" href="#about-me">Sobre</a>
+                <a class="nav-bar" href="#experiencias">Experiencias</a>
+                <a class="nav-bar" href="#projects">Projetos</a>
             </ul>
         </nav>
 
@@ -25,11 +28,11 @@
 
     <section class="header-main" id="header-main">
         <h1>Olá, Eu Sou</h1>
-        <h1 class="name">Julio Bisaia Rodrigues </h1>
+        <h1 class="name" id="name">Julio Bisaia Rodrigues </h1>
         <h1>Desenvolvedor Full Stack</h1>
         <section class="buttons" id="btn-header">
-            <button class="btn border-color-purple" id=""><img src="src/assets/linkedin.png" /> Linkedin</button>
-            <button class="btn border-color-blue"><img src="src/assets/Vectorgithub.png" /> Github</button>
+            <a class="btn border-color-purple" href="https://www.linkedin.com/in/bisaia/" target="_blank"><img src="src/assets/linkedin.png"/> Linkedin</a>
+            <a class="btn border-color-blue" href="https://github.com/JbRodrigues" target="_blank"><img src="src/assets/Vectorgithub.png"/>Github</a>
         </section>
 
 
@@ -47,9 +50,8 @@
                     voluptatum! Esse omnis a enim cumque, neque ad nam quasi nulla? Magni nihil vero ducimus ex ratione?
                 </p>
                 <div class="buttons">
-                    <button class="btn border-color-purple"><img
-                            src="src/assets/cloudcurriculo.png" />Curriculo</button>
-                    <button class="btn border-color-blue"><img src="src/assets/mail.png" />Email</button>
+                    <a class="btn border-color-purple" href="src/assets/Julio Bisaia Rodrigues - PT.pdf" download="julio-curriculo.pdf" target="_blank"><img src="src/assets/cloudcurriculo.png" /> Curriculo</a>
+                    <a class="btn border-color-blue" href="mailto:juliobisaia@gmail.com"><img src="src/assets/mail.png"/>Enviar e-mail</a>
                 </div>
             </div>
         </section>
@@ -122,7 +124,7 @@
 
     <footer>
         <h1 class="footer-info">@ 2023 - Julio</h1>
-        <h1 class="footer-info">Powered by <img src="src/assets/iuricode-logo-footer 1.png" alt="" id="footer-logo">
+        <h1 class="footer-info">Powered by <a href="https://iuricode.com/" target="_blank"> <img src="src/assets/iuricode-logo-footer 1.png" alt="" id="footer-logo"></a>
         </h1>
     </footer>
 </body>

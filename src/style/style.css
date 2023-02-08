@@ -18,6 +18,7 @@ html {
 body {
     background-color: #0C0C0C;
     font-family: Inter;
+    padding-top: 15px;
 }
 
 /*######################## HEADER #################################*/
@@ -25,24 +26,28 @@ body {
 header {
     display: flex;
     flex-direction: column;
-    margin: 40px 180px;
+    width: 1000px;
+    margin-top: -15px;
+    margin-left: 180px;
+    position: fixed;
+    background-color: #0C0C0C;
+
 }
 
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
-a:visited {
+a {
     color: #FFFFFF;
 }
 
 .line {
     height: 1px;
     background-color: #151515;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .title {
@@ -62,7 +67,7 @@ ul {
     font-size: 18px;
 }
 
-li {
+.nav-bar {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,16 +77,22 @@ li {
     height: 50px;
 }
 
-li:hover {
+.nav-bar:hover {
     background-color: #09090B;
     border-bottom: 4px solid #10D7E2;
 }
 
+/*
+.list > .nav-bar:nth-last-child(-n + 1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
 .header-main {
-    margin-top: 100px;
+    margin-top: 120px;
     margin-left: 180px;
     color: #FFFFFF;
-
 }
 
 .name {
@@ -211,13 +222,13 @@ li:hover {
     font-size: 18px;
     border: none;
     margin-top: 26px;
-    border-left: 2px solid #09090B;
-    background-color: #0C0C0C;
+    border-left: 4px solid #2c2c2e;
+    background-color: #09090B;
 
 }
 
 .exp-topics:active {
-    border-left: 2px solid #00D2DF;
+    border-left: 4px solid #00D2DF;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
