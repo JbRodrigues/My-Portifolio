@@ -250,10 +250,13 @@ ul {
     border: 1px solid red;
 }
 
-.exp-1 {
+.exp-soft {
     display: flex;
     flex-direction: column;
+}
 
+.exp-zazz{
+    display: none;
 }
 
 #exp-title {
