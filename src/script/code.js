@@ -9,7 +9,7 @@ selected_buttons.addEventListener('click', e => {
     btns.forEach(btn => {
 
         if (btn.getAttribute('id') === e.target.getAttribute('id')) {
-            alert(btn.getAttribute('id'))
+
             btn.classList.add('active');
 
             if(btn.getAttribute('id') == 'zazz'){
@@ -21,10 +21,6 @@ selected_buttons.addEventListener('click', e => {
             }
         } else {
             btn.classList.remove('active');
-        }
-
-        if (btn.getAttribute('id') == "exp-2") {
-            btn.getAttribute('id').style.display = "block"
         }
     });
 });
