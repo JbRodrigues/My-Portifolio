@@ -313,11 +313,12 @@ ul {
 .project-colum {
     display: flex;
     flex-direction: row;
-    margin: 0 20px 40px 180px;
+    justify-content: space-around;
+    margin: 0 20px 40px 80px;
 }
 
 .project-photo {
-    width: 530px;
+    max-width: 530px;
     height: 200px;
     border-left: 4px solid #00D2DF;
     margin-bottom: 40px;
