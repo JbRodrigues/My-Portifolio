@@ -412,6 +412,36 @@ footer {
         margin-bottom: 60px;
     }
 
+    /*#################### ABOUT ME ##################*/
+
+    #photo{
+        display: none;
+    }
+
+    .sobre-info{
+        margin: 40px 200px 0 24px;
+    }
+
+    .sobre-info>h2 {
+        font-weight: 600px;
+        font-size: 24px;
+        margin-bottom: 16px;
+
+    }
+
+    .sobre-info>h3 {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .about-desc{
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        color: #C4C4C4;
+    }
+
 }
 
 /*############## TABLETS ##########################*/
