@@ -209,7 +209,6 @@ ul {
 .exp-test {
     display: flex;
     flex-direction: row;
-    margin: 0;
 }
 
 #exph2 {
@@ -222,6 +221,10 @@ ul {
     display: flex;
     flex-direction: column;
     margin-left: 180px;
+}
+
+.btns{
+    background-color: #151515;
 }
 
 .exp-topics {
@@ -237,7 +240,7 @@ ul {
     border: none;
     margin-top: 26px;
     border-left: 4px solid #2c2c2e;
-    background-color: #09090B;
+
 }
 
 .active {
@@ -245,8 +248,6 @@ ul {
     color: #FFFFFF;
     font-weight: 500;
     font-size: 18px;
-    background: #09090B;
-    color: #00D2DF;
 }
 
 
@@ -262,7 +263,6 @@ ul {
     margin: 26px 342px 241px 88px;
     display: none;
 }
-
 
 
 .exp-header {
@@ -466,7 +466,11 @@ footer {
         display: flex;
         flex-direction: column;
         color: #FFFFFF;
+    }
 
+    .exp-test {
+        display: flex;
+        flex-direction: column;
     }
 
     #exph2 {
@@ -478,7 +482,12 @@ footer {
     .exp-buttons {
         display: flex;
         flex-direction: row;
-        margin: 24px 24px 56px 24px;
+        justify-content: center;
+        margin: 0 24px 40px 24px;
+    }
+
+    .btns{
+        background-color: #151515;
     }
 
     .exp-topics {
@@ -499,60 +508,54 @@ footer {
         font-family: Inter;
         font-size: 14px;
         font-weight: 500;
-        line-height: 17px;
-        letter-spacing: 0em;
-        text-align: left;
-        background: #09090B;
-        color: #00D2DF;
+    }
+
+    .exp-soft {
+        display: flex;
+        flex-direction: column;
+        margin: 0 24px 40px 26px;
+    }
+
+    .exp-zazz {
+        display: flex;
+        flex-direction: column;
+        margin: 0 24px 40px 26px;
+    }
+
+    .exp-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     #exp-title {
         font-family: Inter;
         font-size: 16px;
         font-weight: 500;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin: 0 64px 16px 26px;
+        margin: 0 64px 16px 0;
     }
 
     #exp-company {
         font-family: Inter;
         font-size: 14px;
         font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
+        margin-right: 130px;
     }
 
     #exp-data {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-    }
-
-    .exp-header {
         display: flex;
-        justify-content: space-between;
-        flex-direction: row;
-        margin: 16px 24px 16px 24px;
-    }
-
-    .exp-desc {
-        margin: 0 26px 40px 26px;
+        align-items: center;
+        text-align: center;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 500;
     }
 
     #exp-job {
         font-family: Inter;
         font-size: 14px;
         font-weight: 300;
-        line-height: 24px;
-        letter-spacing: 0em;
-        text-align: left;
-
     }
 
 
