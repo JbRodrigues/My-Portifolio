@@ -203,18 +203,25 @@ ul {
 .experiencias {
     color: #FFFFFF;
     display: flex;
+    flex-direction: column;
+}
+
+.exp-test {
+    display: flex;
     flex-direction: row;
+    margin: 0;
 }
 
 #exph2 {
     font-weight: 600;
     font-size: 24px;
+    margin: 100px 1102px 26px 180px;
 }
 
 .exp-buttons {
     display: flex;
     flex-direction: column;
-    margin: 100px 0 337px 180px;
+    margin-left: 180px;
 }
 
 .exp-topics {
@@ -242,46 +249,57 @@ ul {
     color: #00D2DF;
 }
 
-.exp-info {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    border: 1px solid red;
-}
 
 .exp-soft {
     display: flex;
     flex-direction: column;
+    margin: 26px 342px 241px 88px;
 }
 
-.exp-zazz{
+.exp-zazz {
+    display: flex;
+    flex-direction: column;
+    margin: 26px 342px 241px 88px;
     display: none;
+}
+
+
+
+.exp-header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: auto;
 }
 
 #exp-title {
     font-weight: 500;
     font-size: 24px;
-    margin: 155px 342px 26px 88px;
-
+    margin-bottom: 26px;
 }
 
 #exp-data {
-    font-weight: 500;
+    font-family: Inter;
     font-size: 16px;
-    margin: 0 342px 26px 88px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 26px;
 }
 
 .exp-desc {
     display: flex;
     flex-direction: column;
-    margin: 0 343px 241px 88px;
+    text-align: justify;
 }
 
 #exp-company {
-    margin-bottom: 26px;
+    font-family: Inter;
     color: #00D2DF;
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 26px;
+    margin-right: 400px;
+    text-align: center;
 }
 
 #exp-job {
@@ -376,49 +394,49 @@ footer {
 
 
 /*############## PHONES ##########################*/
-@media (max-width: 600px){
-    .list{
+@media (max-width: 600px) {
+    .list {
         display: none;
     }
 
-    header{
+    header {
         display: flex;
         justify-content: flex-start;
         margin: 24px 262px 24px 24px;
         padding: 0;
-        position:absolute;
+        position: absolute;
     }
 
-    .header-main{
+    .header-main {
         margin: 0 24px 0 24px;
     }
 
-    .header-text{
+    .header-text {
         font-weight: 600;
         font-size: 16px;
     }
 
-    .name{
+    .name {
         font-weight: 600;
         font-size: 32px;
     }
 
-    .buttons{
+    .buttons {
         margin-top: 50px;
         margin-bottom: 60px;
     }
 
-    #btn-header{
+    #btn-header {
         margin-bottom: 60px;
     }
 
     /*#################### ABOUT ME ##################*/
 
-    #photo{
+    #photo {
         display: none;
     }
 
-    .sobre-info{
+    .sobre-info {
         margin: 40px 200px 0 24px;
     }
 
@@ -435,25 +453,114 @@ footer {
         margin-bottom: 8px;
     }
 
-    .about-desc{
+    .about-desc {
         margin-bottom: 20px;
         font-weight: 300;
         font-size: 14px;
         color: #C4C4C4;
     }
 
+    /*#################### EXPERIENCES ##################*/
+
+    .experiencias {
+        display: flex;
+        flex-direction: column;
+        color: #FFFFFF;
+
+    }
+
+    #exph2 {
+        font-weight: 600;
+        font-size: 24px;
+        margin: 40px 178px 24px 24px;
+    }
+
+    .exp-buttons {
+        display: flex;
+        flex-direction: row;
+        margin: 24px 24px 56px 24px;
+    }
+
+    .exp-topics {
+        width: 144px;
+        height: 42px;
+        color: #C4C4C4;
+        border: none;
+        border-bottom: 4px solid #2c2c2e;
+        background-color: #09090B;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .active {
+        border-bottom: 4px solid #00D2DF;
+        color: #FFFFFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: left;
+        background: #09090B;
+        color: #00D2DF;
+    }
+
+    #exp-title {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0 64px 16px 26px;
+    }
+
+    #exp-company {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    #exp-data {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .exp-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 16px 24px 16px 24px;
+    }
+
+    .exp-desc {
+        margin: 0 26px 40px 26px;
+    }
+
+    #exp-job {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+
+
 }
 
 /*############## TABLETS ##########################*/
-@media (max-width: 768px){
-
-}
+@media (max-width: 768px) {}
 
 
 /*############## LARGE ##########################*/
-@media (max-width: 1200px){
-
-}
-
-
-
+@media (max-width: 1200px) {}
