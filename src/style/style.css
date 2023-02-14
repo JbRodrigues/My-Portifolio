@@ -223,7 +223,7 @@ ul {
     margin-left: 180px;
 }
 
-.btns{
+.btns {
     background-color: #151515;
 }
 
@@ -290,6 +290,7 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    min-height: 110px;
 }
 
 #exp-company {
@@ -325,7 +326,6 @@ ul {
     font-size: 24px;
     margin: 100px 1133px 60px 180px;
 }
-
 
 
 .project-colum {
@@ -454,10 +454,14 @@ footer {
     }
 
     .about-desc {
-        margin-bottom: 20px;
+        font-family: Inter;
+        margin-bottom: 50px;
         font-weight: 300;
-        font-size: 14px;
+        font-size: 14px !important ;
         color: #C4C4C4;
+        max-width: 300px;
+        text-align: justify;
+
     }
 
     /*#################### EXPERIENCES ##################*/
@@ -486,7 +490,7 @@ footer {
         margin: 0 24px 40px 24px;
     }
 
-    .btns{
+    .btns {
         background-color: #151515;
     }
 
@@ -514,12 +518,15 @@ footer {
         display: flex;
         flex-direction: column;
         margin: 0 24px 40px 26px;
+        min-height: 120px;
     }
 
     .exp-zazz {
         display: flex;
         flex-direction: column;
         margin: 0 24px 40px 26px;
+        min-height: 120px;
+        display: none;
     }
 
     .exp-header {
@@ -558,6 +565,53 @@ footer {
         font-weight: 300;
     }
 
+
+    /*#################### JOBS ##################*/
+
+    .projects {
+        background-color: #09090B;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects>h1 {
+        font-weight: 600;
+        font-size: 24px;
+        margin: 40px 207px 24px 26px;
+    }
+
+    .project-colum {
+        display: flex;
+        flex-direction: column;
+        margin: 0 24px 40px 24px;
+    }
+
+    .project-container {
+        width: 50vw;
+        margin: 0 24px 40px 24px;
+    }
+
+    .project-photo {
+        max-width: 312px;
+        height: 130px;
+        border-left: 4px solid #00D2DF;
+        margin-bottom: 24px;
+        background-color: #0C0C0C;
+    }
+
+    .btn-project {
+        display: flex;
+
+        justify-content: center;
+        height: 45px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+
+    .btn-project>img {
+        margin-right: 10px;
+    }
 
 }
 
