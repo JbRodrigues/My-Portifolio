@@ -191,6 +191,7 @@ ul {
 }
 
 .about-desc {
+    text-align: justify;
     margin-bottom: 20px;
     font-weight: 300;
     font-size: 18px;
@@ -332,11 +333,21 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0 20px 40px 80px;
 }
 
+.left-container {
+    margin-right: 180px !important;
+}
+
+.project-container {
+    width: 100%;
+    margin: 60px 20px 90px 180px;
+}
+
+
+
 .project-photo {
-    max-width: 530px;
+    width: 530px;
     height: 200px;
     border-left: 4px solid #00D2DF;
     margin-bottom: 40px;
@@ -350,6 +361,8 @@ ul {
 }
 
 .project-desc {
+    max-width: 100%;
+    text-align: justify;
     font-weight: 300;
     font-size: 16px;
     color: #C4C4C4;
@@ -569,6 +582,7 @@ footer {
     /*#################### JOBS ##################*/
 
     .projects {
+        width: 98vw;
         background-color: #09090B;
         color: #FFFFFF;
         display: flex;
@@ -587,26 +601,42 @@ footer {
         margin: 0 24px 40px 24px;
     }
 
+    .left-container {
+        margin-right: 0;
+    }
+
     .project-container {
-        width: 50vw;
-        margin: 0 24px 40px 24px;
+        margin: 0 24px 24px 0;
     }
 
     .project-photo {
-        max-width: 312px;
+        max-width: 95%;
         height: 130px;
         border-left: 4px solid #00D2DF;
         margin-bottom: 24px;
         background-color: #0C0C0C;
     }
 
+    .project-title {
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .project-desc {
+        max-width: 95%;
+        font-weight: 300;
+        font-size: 14px;
+        color: #C4C4C4;
+        margin-bottom: 26px;
+    }
+
     .btn-project {
         display: flex;
-
         justify-content: center;
         height: 45px;
         margin-bottom: 50px;
-        width: 100%;
+        width: 90%;
     }
 
     .btn-project>img {
