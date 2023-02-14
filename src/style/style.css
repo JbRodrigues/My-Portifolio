@@ -457,9 +457,9 @@ footer {
         font-family: Inter;
         margin-bottom: 50px;
         font-weight: 300;
-        font-size: 14px !important ;
+        font-size: 14px !important;
         color: #C4C4C4;
-        max-width: 300px;
+        max-width: 320px;
         text-align: justify;
 
     }
@@ -611,6 +611,26 @@ footer {
 
     .btn-project>img {
         margin-right: 10px;
+    }
+
+    /*#################### FOOTER ##################*/
+
+    .footer-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        color: #C4C4C4;
+        margin: 25px 26px 28px 24px;
+    }
+
+    #footer-logo {
+        margin-left: 13px;
+    }
+
+    #sponsor {
+        margin-right: 26px;
     }
 
 }
