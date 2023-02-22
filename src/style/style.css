@@ -402,6 +402,15 @@ footer {
     margin-right: 100px;
 }
 
+.footer-social{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social:hover{
+    border-bottom: 4px solid #00D2DF;
+}
+
 
 /*############# RESPONSIVE #####################*/
 
