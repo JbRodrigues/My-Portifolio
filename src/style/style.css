@@ -38,6 +38,10 @@ nav {
     justify-content: space-around;
 }
 
+#dropdown {
+    display: none;
+}
+
 a {
     color: #FFFFFF;
 }
@@ -403,12 +407,12 @@ footer {
     margin-right: 100px;
 }
 
-.footer-social{
+.footer-social {
     width: 40px;
     height: 40px;
 }
 
-.footer-social:hover{
+.footer-social:hover {
     border-bottom: 4px solid #00D2DF;
 }
 
@@ -417,14 +421,75 @@ footer {
 
 
 /*############## PHONES ##########################*/
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
+
+    .endpoints {
+        color: deeppink;
+    }
+
     .list {
         display: none;
     }
 
+    #dropIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Style the dropdown container */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Style the dropdown button */
+    .dropdown button {
+        background-color: #0C0C0C;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Style the dropdown menu */
+    .dropdown .menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #0C0C0C;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        display: none;
+
+    }
+
+    /* Show the dropdown menu when hovering over the container */
+    .dropdown:hover .menu {
+        display: block;
+    }
+
+    /* Style the dropdown items */
+    .dropdown .menu a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    /* Style the dropdown items when hovering over them */
+    .dropdown .menu a:hover {
+        background-color: #0C0C0C;
+        color: #10D7E2;
+    }
+
+
+
     header {
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
+
         margin: 24px 262px 24px 24px;
         padding: 0;
         position: absolute;
@@ -676,8 +741,21 @@ footer {
 }
 
 /*############## TABLETS ##########################*/
-@media (max-width: 768px) {}
+@media screen and (min-width: 768px) {
+    .endpoints {
+        color: deeppink;
+    }
+
+
+
+}
 
 
 /*############## LARGE ##########################*/
-@media (max-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+
+    .endpoints {
+        color: deeppink;
+    }
+
+}
