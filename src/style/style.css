@@ -387,9 +387,10 @@ body {
         flex-direction: column;
     }
 
-    .project-container{
+    .project-container {
         border: none;
     }
+
     .project-photo {
         height: 200px;
         max-width: 320px;
@@ -430,20 +431,20 @@ body {
 
     .footer-info {
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         font-weight: 400;
         font-size: 16px;
         color: #C4C4C4;
-        margin: 41px 0 40px 178px;
+        margin: 1rem;
     }
 
     #footer-logo {
-        margin-left: 13px;
+        margin: 1rem;
     }
 
     #sponsor {
-        margin-right: 100px;
+        margin: 1rem;
     }
 
     .footer-social {
