@@ -53,6 +53,12 @@ body {
         height: 30px;
     }
 
+    #countryIcon {
+        width: 15px;
+        height: 15px;
+        margin: .2rem;
+    }
+
     /* Style the dropdown container */
     .dropdown {
         position: relative;
@@ -386,9 +392,15 @@ body {
     .project-colum {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .project-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         border: none;
     }
 
@@ -495,6 +507,12 @@ body {
     #dropIcon {
         width: 30px;
         height: 30px;
+    }
+
+    #countryIcon {
+        width: 15px;
+        height: 15px;
+        margin: .2rem;
     }
 
     /* Style the dropdown container */
@@ -822,26 +840,24 @@ body {
     .projects>h1 {
         font-weight: 600;
         font-size: 24px;
-        margin: 100px 1133px 60px 180px;
+        margin: 1rem;
     }
-
 
     .project-colum {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .left-container {
-        margin-right: 180px !important;
-    }
 
     .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         width: 100%;
-        margin: 60px 20px 90px 180px;
+        margin: 1rem;
     }
-
-
 
     .project-photo {
         width: 530px;
@@ -877,7 +893,7 @@ body {
 
     footer {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction: row;
     }
 
@@ -888,15 +904,11 @@ body {
         font-weight: 400;
         font-size: 16px;
         color: #C4C4C4;
-        margin: 41px 0 40px 178px;
+        margin: 1rem;
     }
 
     #footer-logo {
-        margin-left: 13px;
-    }
-
-    #sponsor {
-        margin-right: 100px;
+        margin-left: .5rem;
     }
 
     .footer-social {
@@ -912,7 +924,7 @@ body {
 }
 
 /*############## LARGE ##########################*/
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
 
     .endpoints {
         color: deeppink;
@@ -922,23 +934,27 @@ body {
 
     header {
         display: flex;
-        justify-content: center;
         width: 100vw;
-        margin-top: -15px;
         position: fixed;
+        margin-top: -1rem;
         background-color: #0C0C0C;
-
     }
 
     nav {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+    }
+
+    .list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .dropdown {
         display: none;
     }
+
 
     a {
         color: #FFFFFF;
@@ -1060,53 +1076,47 @@ body {
         background-color: #09090B;
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-direction: row;
+        height: 500px;
     }
 
     .sobre-info {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         color: #FFFFFF;
+        height: auto;
     }
 
     #photo {
-        width: 367px;
-        height: 367px;
-        margin: 100px 183px 98px 180px;
+        display: block;
+        width: 400px;
+        height: 400px;
+        margin: 0 0 0 1rem;
         border-left: 4px solid #00D2DF;
-        padding: 0.5rem;
     }
 
     .sobre-info>h2 {
         font-size: 24px;
-        margin-bottom: 40px;
-
+        margin-bottom: 20px;
     }
 
     .sobre-info>h3 {
         font-size: 21px;
-        margin-bottom: 21px;
-
-    }
-
-    .sobre-info>p {
-        width: 530px;
-        height: 96px;
-        font-weight: 300;
-        font-size: 18px;
-
+        margin-bottom: 10px;
     }
 
     .about-desc {
-        text-align: justify;
-        margin-bottom: 20px;
+        max-width: 90%;
+        margin-bottom: 2rem;
         font-weight: 300;
         font-size: 18px;
         color: #C4C4C4;
-
     }
+
+
 
     /*######################## END OF ABOUT ME #################################*/
 
@@ -1124,13 +1134,13 @@ body {
     #exph2 {
         font-weight: 600;
         font-size: 24px;
-        margin: 100px 1102px 26px 180px;
+        margin: 2rem;
     }
 
     .exp-buttons {
         display: flex;
         flex-direction: column;
-        margin-left: 180px;
+        margin: 1rem;
     }
 
     .btns {
@@ -1138,19 +1148,12 @@ body {
     }
 
     .exp-topics {
-        width: 193px;
-        height: 55px;
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
         color: #C4C4C4;
         font-weight: 300;
         font-size: 18px;
-        border: none;
-        margin-top: 26px;
         border-left: 4px solid #2c2c2e;
-
     }
 
     .active {
@@ -1164,22 +1167,14 @@ body {
     .exp-soft {
         display: flex;
         flex-direction: column;
-        margin: 26px 342px 241px 88px;
+        margin: 1rem;
     }
 
     .exp-zazz {
         display: flex;
         flex-direction: column;
-        margin: 26px 342px 241px 88px;
+        margin: 1rem;
         display: none;
-    }
-
-
-    .exp-header {
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: row;
-        width: auto;
     }
 
     #exp-title {
@@ -1188,19 +1183,20 @@ body {
         margin-bottom: 26px;
     }
 
+
+    .exp-header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: auto;
+        margin-bottom: 1rem;
+    }
+
     #exp-data {
         font-family: Inter;
         font-size: 16px;
         font-weight: 500;
         line-height: 24px;
-        margin-bottom: 26px;
-    }
-
-    .exp-desc {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        min-height: 110px;
     }
 
     #exp-company {
@@ -1208,9 +1204,14 @@ body {
         color: #00D2DF;
         font-weight: 500;
         font-size: 16px;
-        margin-bottom: 26px;
-        margin-right: 400px;
         text-align: center;
+    }
+
+    .exp-desc {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        min-height: 110px;
     }
 
     #exp-job {
@@ -1234,39 +1235,36 @@ body {
     .projects>h1 {
         font-weight: 600;
         font-size: 24px;
-        margin: 100px 1133px 60px 180px;
+        margin: 2rem;
     }
 
 
     .project-colum {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
-    .left-container {
-        margin-right: 180px !important;
-    }
 
     .project-container {
-        width: 100%;
-        margin: 60px 20px 90px 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
     }
 
-
-
     .project-photo {
-        width: 530px;
+        width: 90%;
         height: 200px;
         border-left: 4px solid #00D2DF;
-        margin-bottom: 40px;
         background-color: #0C0C0C;
     }
 
     .project-title {
         font-weight: 500;
         font-size: 24px;
-        margin-bottom: 30px;
+        margin-bottom: 1rem;
     }
 
     .project-desc {
@@ -1275,12 +1273,12 @@ body {
         font-weight: 300;
         font-size: 16px;
         color: #C4C4C4;
-        margin-bottom: 26px;
     }
 
     .btn-project {
         width: 141px;
         height: 45px;
+        margin-bottom: 2rem;
     }
 
     /*######################## END OF PROJECTS #################################*/

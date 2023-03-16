@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="stylesheet" href="src/style/style.css">
     <!-- Favicon from https://www.flaticon.com/free-icons/polymer -->
     <link rel="icon" type="image/x-icon" href="src/assets/nanotechnology.png">
     <title>Julio Bisaia</title>
@@ -13,24 +13,37 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <h1 class="title"> Portifolio </h1>
             <ul class="list">
-                <a class="nav-bar" href="#header">Home</a>
-                <a class="nav-bar" href="#about-me">About me</a>
-                <a class="nav-bar" href="#experiencias">Jobs</a>
-                <a class="nav-bar" href="#projects">Projects</a>
-                <a class="nav-bar" href="index.html"><img src="src/assets/brazil.png" alt="Brazil Icon" id="countryIcon">Portuguese</a>
+                <li><a class="nav-bar" href="#header-main">Home</a></li>
+                <li><a class="nav-bar" href="#about-me">Sobre</a></li>
+                <li><a class="nav-bar" href="#experiencias">Experiencias</a></li>
+                <li><a class="nav-bar" href="#projects">Projetos</a></li>
+                <li><a class="nav-bar" href="index.html"><img src="src/assets/brazil.png" alt="US Icon"
+                            id="countryIcon">PT-BR</a></li>
             </ul>
+
+            <div class="dropdown">
+                <button><img src="src/assets/menu.png" alt="dropdown icon" id="dropIcon"></button>
+                <div class="menu">
+                    <a href="#header">Home</a>
+                    <a href="#about-me">Sobre</a>
+                    <a href="#experiencias">Experiencias</a>
+                    <a href="#projects">Projetos</a>
+                    <a class="nav-bar" href="index.html"><img src="src/assets/brazil.png" alt="US Icon"
+                        id="countryIcon">PT-BR</a>
+                </div>
+            </div>
 
         </nav>
         <div class="line"></div>
     </header>
 
     <section class="header-main" id="header">
-        <h1 class="header-text">Hello There, I'm</h1>
+        <h1 class="header-text">Olá, Eu Sou</h1>
         <h1 class="name" id="name">Julio Bisaia Rodrigues </h1>
-        <h1 class="header-text">Full Stack Developer</h1>
+        <h1 class="header-text">Desenvolvedor Full Stack</h1>
 
         <div class="buttons" id="btn-header">
             <a class="btn border-color-purple" href="https://www.linkedin.com/in/bisaia/" target="_blank"><img
@@ -40,31 +53,31 @@
         </div>
     </section>
 
-
-
     <main>
         <section class="about-me" id="about-me">
             <img src="src/images/github.jpg" alt="profile photo" id="photo">
             <div class="sobre-info">
-                <h2>ABOUT ME</h2>
-                <h3>Paraná, Brazil</h3>
+                <h2>SOBRE MIM</h2>
+                <h3>Paraná, Brasil</h3>
                 <p class="about-desc">Eu sou o Julio, estudo programação desde 2018 quando iniciei a faculdade de
                     Análise e Desenvolvimento de sistemas. Atualmente moro no interior do Paraná. Já trabalhei com
                     sistema ERP feito em Classic Asp, desenvolvendo novas funções, tambem criei integrações com
                     APIs para sistemas CRM e chatbot. Atualmente estudo novas técnicas e tecnologias para aplicar no
                     mercado de trabalho. </p>
+
                 <div class="buttons about-buttons">
                     <a class="btn border-color-purple" href="src/assets/Julio Bisaia Rodrigues - PT.pdf"
                         download="julio-curriculo.pdf" target="_blank"><img src="src/assets/cloudcurriculo.png" />
-                        Resume</a>
+                        Curriculo</a>
                     <a class="btn border-color-blue" href="mailto:juliobisaia@gmail.com"><img
-                            src="src/assets/mail.png" />E-mail</a>
+                            src="src/assets/mail.png" />
+                        E-mail</a>
                 </div>
             </div>
         </section>
 
         <section class="experiencias" id="experiencias">
-            <h2 id="exph2">Jobs</h2>
+            <h2 id="exph2">EXPERIÊNCIAS</h2>
 
             <div class="exp-test">
                 <div class="exp-buttons">
@@ -73,7 +86,7 @@
                 </div>
 
                 <div class="exp-soft">
-                    <h1 id="exp-title">Trainee Developer</h1>
+                    <h1 id="exp-title">Programador Trainee</h1>
 
                     <div class="exp-header">
                         <h2 id="exp-company">Softarte</h2>
@@ -81,7 +94,7 @@
                     </div>
 
                     <div class="exp-desc">
-                        <p id="exp-job">- Manutenção e Desenvolvimento de novas funções para o sistema ERP Utilizando
+                        <p id="exp-job">-Manutenção e Desenvolvimento de novas funções para o sistema ERP Utilizando
                             Classic Asp e MySQL.<br>
                             -Aplicação de funções em nuvem com o Microsoft Azure. <br>
                             - Integrações E-commerce Magento 2. <br>
@@ -91,7 +104,7 @@
 
 
                 <div class="exp-zazz">
-                    <h1 id="exp-title">Full Stack Developer Junior</h1>
+                    <h1 id="exp-title">Desenvolvedor Full Stack Junior</h1>
 
                     <div class="exp-header">
                         <h2 id="exp-company">Zazz Internet</h2>
@@ -100,7 +113,7 @@
 
                     <div class="exp-desc">
 
-                        <p id="exp-job">- Desenvolvimento de Middlewares. <br>
+                        <p id="exp-job">-Desenvolvimento de Middlewares.<br>
                             - Integações chatbot via API. <br>
                             - Documentação de Redes. </p>
                     </div>
@@ -110,22 +123,22 @@
         </section>
 
         <section class="projects" id="projects">
-            <h1>Projects</h1>
+            <h1>Projetos</h1>
 
             <div class="project-colum">
                 <div class="project-container">
                     <img src="src/images/devfinances.png" alt="project image" class="project-photo">
                     <h2 class="project-title">DevFincanças</h2>
-                    <p class="project-desc">Front End project for financial management </p>
+                    <p class="project-desc">Projeto Front End para gestão de Finanças</p>
                     <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/DevFinancas"
-                        target="_blank"><img src="src/assets/link.png" />View</a>
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
                 </div>
                 <div class="project-container left-container">
                     <img src="src/images/valorant.png" alt="project image" class="project-photo">
                     <h2 class="project-title">Valorant Market</h2>
-                    <p class="project-desc">Front End project of Valorant Store in Game</p>
+                    <p class="project-desc">Projeto Front End da loja do Jogo Valorant</p>
                     <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/ValorantMarket"
-                        target="_blank"><img src="src/assets/link.png" />View</a>
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
                 </div>
             </div>
 
@@ -135,14 +148,190 @@
                     <h2 class="project-title">Guru do Destino</h2>
                     <p class="project-desc">Projeto Front End proposto pela Rocketseat </p>
                     <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/Maratona_Explorer"
-                        target="_blank"><img src="src/assets/link.png" />View</a>
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
                 </div>
                 <div class="project-container left-container">
                     <img src="src/images/crud.png" alt="project image" class="project-photo">
                     <h2 class="project-title">Sistema de Gerenciamento Online</h2>
-                    <p class="project-desc">CRUD made with PHP for managemente queue</p>
+                    <p class="project-desc">CRUD feito em PHP para gerenciar fila de agendamentos</p>
                     <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/SGO"
-                        target="_blank"><img src="src/assets/link.png" />View</a>
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h1 class="footer-info"> @ 2023 </h1>
+
+        <h1 class="footer-info" id="sponsor">Powered by
+            <a href="https://iuricode.com/" target="_blank">
+                <img src="src/assets/iuricode-logo-footer 1.png" alt="Sponsor Logo" id="footer-logo">
+            </a>
+        </h1>
+    </footer>
+</body>
+<script src="src/script/code.js"></script>
+
+</html>
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <!-- Favicon from https://www.flaticon.com/free-icons/polymer -->
+    <link rel="icon" type="image/x-icon" href="src/assets/nanotechnology.png">
+    <title>Julio Bisaia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="title"> Portifolio </h1>
+            <ul class="list">
+                <li><a class="nav-bar" href="#header-main">Home</a></li>
+                <li><a class="nav-bar" href="#about-me">Sobre</a></li>
+                <li><a class="nav-bar" href="#experiencias">Experiencias</a></li>
+                <li><a class="nav-bar" href="#projects">Projetos</a></li>
+                <li><a class="nav-bar" href="en.html"><img src="src/assets/united-states.png" alt="Brazil Icon"
+                            id="countryIcon">Inglês</a></li>
+            </ul>
+
+            <div class="dropdown">
+                <button><img src="src/assets/menu.png" alt="dropdown icon" id="dropIcon"></button>
+                <div class="menu">
+                    <a href="#header">Home</a>
+                    <a href="#about-me">Sobre</a>
+                    <a href="#experiencias">Experiencias</a>
+                    <a href="#projects">Projetos</a>
+                    <a class="nav-bar" href="en.html"><img src="src/assets/united-states.png" alt="Brazil Icon"
+                        id="countryIcon">Inglês</a>
+                </div>
+            </div>
+
+        </nav>
+        <div class="line"></div>
+    </header>
+
+    <section class="header-main" id="header">
+        <h1 class="header-text">Olá, Eu Sou</h1>
+        <h1 class="name" id="name">Julio Bisaia Rodrigues </h1>
+        <h1 class="header-text">Desenvolvedor Full Stack</h1>
+
+        <div class="buttons" id="btn-header">
+            <a class="btn border-color-purple" href="https://www.linkedin.com/in/bisaia/" target="_blank"><img
+                    src="src/assets/linkedin.png" /> Linkedin</a>
+            <a class="btn border-color-blue" href="https://github.com/JbRodrigues" target="_blank"><img
+                    src="src/assets/Vectorgithub.png" />Github</a>
+        </div>
+    </section>
+
+    <main>
+        <section class="about-me" id="about-me">
+            <img src="src/images/github.jpg" alt="profile photo" id="photo">
+            <div class="sobre-info">
+                <h2>SOBRE MIM</h2>
+                <h3>Paraná, Brasil</h3>
+                <p class="about-desc">Eu sou o Julio, estudo programação desde 2018 quando iniciei a faculdade de
+                    Análise e Desenvolvimento de sistemas. Atualmente moro no interior do Paraná. Já trabalhei com
+                    sistema ERP feito em Classic Asp, desenvolvendo novas funções, tambem criei integrações com
+                    APIs para sistemas CRM e chatbot. Atualmente estudo novas técnicas e tecnologias para aplicar no
+                    mercado de trabalho. </p>
+
+                <div class="buttons about-buttons">
+                    <a class="btn border-color-purple" href="src/assets/Julio Bisaia Rodrigues - PT.pdf"
+                        download="julio-curriculo.pdf" target="_blank"><img src="src/assets/cloudcurriculo.png" />
+                        Curriculo</a>
+                    <a class="btn border-color-blue" href="mailto:juliobisaia@gmail.com"><img
+                            src="src/assets/mail.png" />
+                        E-mail</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="experiencias" id="experiencias">
+            <h2 id="exph2">EXPERIÊNCIAS</h2>
+
+            <div class="exp-test">
+                <div class="exp-buttons">
+                    <button class="exp-topics btns active" id="soft"> Softarte </button>
+                    <button class="exp-topics btns" id="zazz"> Zazz Internet </button>
+                </div>
+
+                <div class="exp-soft">
+                    <h1 id="exp-title">Programador Trainee</h1>
+
+                    <div class="exp-header">
+                        <h2 id="exp-company">Softarte</h2>
+                        <p id="exp-data">Maio/2021 - Setembro/2021</p>
+                    </div>
+
+                    <div class="exp-desc">
+                        <p id="exp-job">-Manutenção e Desenvolvimento de novas funções para o sistema ERP Utilizando
+                            Classic Asp e MySQL.<br>
+                            -Aplicação de funções em nuvem com o Microsoft Azure. <br>
+                            - Integrações E-commerce Magento 2. <br>
+                            - Suporte ao cliente.</p>
+                    </div>
+                </div>
+
+
+                <div class="exp-zazz">
+                    <h1 id="exp-title">Desenvolvedor Full Stack Junior</h1>
+
+                    <div class="exp-header">
+                        <h2 id="exp-company">Zazz Internet</h2>
+                        <p id="exp-data">Setembro/2021 - Maio/2022</p>
+                    </div>
+
+                    <div class="exp-desc">
+
+                        <p id="exp-job">-Desenvolvimento de Middlewares.<br>
+                            - Integações chatbot via API. <br>
+                            - Documentação de Redes. </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="projects" id="projects">
+            <h1>Projetos</h1>
+
+            <div class="project-colum">
+                <div class="project-container">
+                    <img src="src/images/devfinances.png" alt="project image" class="project-photo">
+                    <h2 class="project-title">DevFincanças</h2>
+                    <p class="project-desc">Projeto Front End para gestão de Finanças</p>
+                    <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/DevFinancas"
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
+                </div>
+                <div class="project-container left-container">
+                    <img src="src/images/valorant.png" alt="project image" class="project-photo">
+                    <h2 class="project-title">Valorant Market</h2>
+                    <p class="project-desc">Projeto Front End da loja do Jogo Valorant</p>
+                    <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/ValorantMarket"
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
+                </div>
+            </div>
+
+            <div class="project-colum">
+                <div class="project-container">
+                    <img src="src/images/maratona.png" alt="project image" class="project-photo">
+                    <h2 class="project-title">Guru do Destino</h2>
+                    <p class="project-desc">Projeto Front End proposto pela Rocketseat </p>
+                    <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/Maratona_Explorer"
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
+                </div>
+                <div class="project-container left-container">
+                    <img src="src/images/crud.png" alt="project image" class="project-photo">
+                    <h2 class="project-title">Sistema de Gerenciamento Online</h2>
+                    <p class="project-desc">CRUD feito em PHP para gerenciar fila de agendamentos</p>
+                    <a class="btn border-color-blue btn-project" href="https://github.com/JbRodrigues/SGO"
+                        target="_blank"><img src="src/assets/link.png" />Visualizar</a>
                 </div>
             </div>
         </section>
