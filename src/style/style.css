@@ -20,406 +20,6 @@ body {
     padding-top: 15px;
 }
 
-/*######################## HEADER #################################*/
-
-header {
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    margin-top: -15px;
-    position: fixed;
-    background-color: #0C0C0C;
-
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.dropdown {
-    display: none;
-}
-
-a {
-    color: #FFFFFF;
-}
-
-.line {
-    height: 1px;
-    background-color: #151515;
-    margin-top: 10px;
-}
-
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #00D2DF;
-    font-size: 24px;
-    margin-right: 100px;
-
-}
-
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    color: #C4C4C4;
-    font-size: 18px;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.2rem;
-    border-right: 1px solid #151515;
-    width: 150px;
-    height: 50px;
-}
-
-
-.nav-bar:hover {
-    background-color: #09090B;
-    border-bottom: 4px solid #10D7E2;
-}
-
-/*
-.list > .nav-bar:nth-last-child(-n + 1){
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
-
-.header-main {
-    padding-top: 130px;
-    margin-left: 180px;
-    color: #FFFFFF;
-}
-
-.name {
-    color: #00D2DF;
-    font-size: 64px;
-}
-
-.buttons {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    margin-top: 70px;
-}
-
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: #151515;
-    width: 150px;
-    height: 50px;
-    border: 2px solid;
-    color: #FFFFFF;
-    font-size: 16px;
-    margin-right: 30px;
-}
-
-#btn-header {
-    margin-bottom: 200px;
-}
-
-.border-color-purple {
-    border-image: linear-gradient(to right, #D24074, #6518B4) 1;
-}
-
-.border-color-purple:hover {
-    border-image: linear-gradient(to right, #6518B4, #D24074) 1;
-}
-
-.border-color-blue {
-    border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
-}
-
-.border-color-blue:hover {
-    border-image: linear-gradient(to right, #10D7E2, #9358F7) 1;
-}
-
-.btn>img {
-    height: 20px;
-}
-
-/*######################## END OF HEADER #################################*/
-
-/*########################## ABOUT ME ####################################*/
-
-.about-me {
-    background-color: #09090B;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-}
-
-.sobre-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-direction: column;
-    color: #FFFFFF;
-}
-
-#photo {
-    width: 367px;
-    height: 367px;
-    margin: 100px 183px 98px 180px;
-    border-left: 4px solid #00D2DF;
-    padding: 0.5rem;
-}
-
-.sobre-info>h2 {
-    font-size: 24px;
-    margin-bottom: 40px;
-
-}
-
-.sobre-info>h3 {
-    font-size: 21px;
-    margin-bottom: 21px;
-
-}
-
-.sobre-info>p {
-    width: 530px;
-    height: 96px;
-    font-weight: 300;
-    font-size: 18px;
-
-}
-
-.about-desc {
-    text-align: justify;
-    margin-bottom: 20px;
-    font-weight: 300;
-    font-size: 18px;
-    color: #C4C4C4;
-
-}
-
-/*######################## END OF ABOUT ME #################################*/
-
-.experiencias {
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-}
-
-.exp-test {
-    display: flex;
-    flex-direction: row;
-}
-
-#exph2 {
-    font-weight: 600;
-    font-size: 24px;
-    margin: 100px 1102px 26px 180px;
-}
-
-.exp-buttons {
-    display: flex;
-    flex-direction: column;
-    margin-left: 180px;
-}
-
-.btns {
-    background-color: #151515;
-}
-
-.exp-topics {
-    width: 193px;
-    height: 55px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #C4C4C4;
-    font-weight: 300;
-    font-size: 18px;
-    border: none;
-    margin-top: 26px;
-    border-left: 4px solid #2c2c2e;
-
-}
-
-.active {
-    border-left: 4px solid #00D2DF;
-    color: #FFFFFF;
-    font-weight: 500;
-    font-size: 18px;
-}
-
-
-.exp-soft {
-    display: flex;
-    flex-direction: column;
-    margin: 26px 342px 241px 88px;
-}
-
-.exp-zazz {
-    display: flex;
-    flex-direction: column;
-    margin: 26px 342px 241px 88px;
-    display: none;
-}
-
-
-.exp-header {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    width: auto;
-}
-
-#exp-title {
-    font-weight: 500;
-    font-size: 24px;
-    margin-bottom: 26px;
-}
-
-#exp-data {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    margin-bottom: 26px;
-}
-
-.exp-desc {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    min-height: 110px;
-}
-
-#exp-company {
-    font-family: Inter;
-    color: #00D2DF;
-    font-weight: 500;
-    font-size: 16px;
-    margin-bottom: 26px;
-    margin-right: 400px;
-    text-align: center;
-}
-
-#exp-job {
-    font-weight: 300;
-    font-size: 18px;
-    color: #C4C4C4;
-}
-
-/*######################## END OF EXPERIENCES#################################*/
-
-/*######################## PROJECTS #################################*/
-
-.projects {
-    background-color: #09090B;
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.projects>h1 {
-    font-weight: 600;
-    font-size: 24px;
-    margin: 100px 1133px 60px 180px;
-}
-
-
-.project-colum {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.left-container {
-    margin-right: 180px !important;
-}
-
-.project-container {
-    width: 100%;
-    margin: 60px 20px 90px 180px;
-}
-
-
-
-.project-photo {
-    width: 530px;
-    height: 200px;
-    border-left: 4px solid #00D2DF;
-    margin-bottom: 40px;
-    background-color: #0C0C0C;
-}
-
-.project-title {
-    font-weight: 500;
-    font-size: 24px;
-    margin-bottom: 30px;
-}
-
-.project-desc {
-    max-width: 100%;
-    text-align: justify;
-    font-weight: 300;
-    font-size: 16px;
-    color: #C4C4C4;
-    margin-bottom: 26px;
-}
-
-.btn-project {
-    width: 141px;
-    height: 45px;
-}
-
-/*######################## END OF PROJECTS #################################*/
-
-/*######################## FOOTER #################################*/
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.footer-info {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 400;
-    font-size: 16px;
-    color: #C4C4C4;
-    margin: 41px 0 40px 178px;
-}
-
-#footer-logo {
-    margin-left: 13px;
-}
-
-#sponsor {
-    margin-right: 100px;
-}
-
-.footer-social {
-    width: 40px;
-    height: 40px;
-}
-
-.footer-social:hover {
-    border-bottom: 4px solid #00D2DF;
-}
-
-
-/*############# RESPONSIVE #####################*/
-
-
 /*############## PHONES ##########################*/
 @media screen and (max-width: 600px) {
 
@@ -430,340 +30,14 @@ footer {
     header {
         display: flex;
         justify-content: space-around;
-        max-width: 600px;
-        margin: .5rem;
-        position: inherit;
-    }
-
-    .title {
-        margin-left: 1rem;
-    }
-
-    .line {
-        display: none;
-    }
-
-    .list {
-        display: none;
-    }
-
-    #dropIcon {
-        width: 30px;
-        height: 30px;
-    }
-
-    /* Style the dropdown container */
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-
-    /* Style the dropdown button */
-    .dropdown button {
-        background-color: #0C0C0C;
-        color: white;
-        padding: 12px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-    }
-
-    /* Style the dropdown menu */
-    .dropdown .menu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background-color: #0C0C0C;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-        display: none;
-
-    }
-
-    /* Show the dropdown menu when hovering over the container */
-    .dropdown:hover .menu {
-        display: block;
-    }
-
-    /* Style the dropdown items */
-    .dropdown .menu a {
-        color: white;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
-    /* Style the dropdown items when hovering over them */
-    .dropdown .menu a:hover {
-        background-color: #0C0C0C;
-        color: #10D7E2;
-    }
-
-
-    .header-main {
-        margin: 0 24px 0 24px;
-    }
-
-    .header-text {
-        font-weight: 600;
-        font-size: 16px;
-    }
-
-    .name {
-        font-weight: 600;
-        font-size: 32px;
-    }
-
-    .buttons {
-        margin-top: 50px;
-        margin-bottom: 60px;
-    }
-
-    #btn-header {
-        margin-bottom: 60px;
-    }
-
-    /*#################### ABOUT ME ##################*/
-
-    #photo {
-        display: none;
-    }
-
-    .sobre-info {
-        margin: 1.5rem;
-    }
-
-    .sobre-info>h2 {
-        font-weight: 600px;
-        font-size: 24px;
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-    }
-
-    .sobre-info>h3 {
-        font-weight: 500;
-        font-size: 16px;
-        margin-bottom: 8px;
-    }
-
-    .about-desc {
-        font-family: Inter;
-        font-weight: 300;
-        font-size: 14px !important;
-        color: #C4C4C4;
-        text-align: justify;
-        max-width: 320px;
-    }
-
-    /*#################### EXPERIENCES ##################*/
-
-    .experiencias {
-        display: flex;
-        flex-direction: column;
-        color: #FFFFFF;
-    }
-
-    .exp-test {
-        display: flex;
-        flex-direction: column;
-    }
-
-    #exph2 {
-        font-weight: 600;
-        font-size: 24px;
-        margin: 40px 178px 24px 24px;
-    }
-
-    .exp-buttons {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin: 0 24px 40px 24px;
-    }
-
-    .btns {
-        background-color: #151515;
-    }
-
-    .exp-topics {
-        width: 144px;
-        height: 42px;
-        color: #C4C4C4;
-        border: none;
-        border-bottom: 4px solid #2c2c2e;
-        background-color: #09090B;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .active {
-        border-bottom: 4px solid #00D2DF;
-        color: #FFFFFF;
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-    }
-
-    .exp-soft {
-        display: flex;
-        flex-direction: column;
-        margin: 0 24px 40px 26px;
-        min-height: 120px;
-    }
-
-    .exp-zazz {
-        display: flex;
-        flex-direction: column;
-        margin: 0 24px 40px 26px;
-        min-height: 120px;
-        display: none;
-    }
-
-    .exp-header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #exp-title {
-        font-family: Inter;
-        font-size: 16px;
-        font-weight: 500;
-        margin: 0 64px 16px 0;
-    }
-
-    #exp-company {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 500;
-        margin-right: 130px;
-    }
-
-    #exp-data {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        font-family: Inter;
-        font-size: 12px;
-        font-weight: 500;
-    }
-
-    #exp-job {
-        font-family: Inter;
-        font-size: 14px;
-        font-weight: 300;
-    }
-
-
-    /*#################### JOBS ##################*/
-
-    .projects {
-        width: 98vw;
-        background-color: #09090B;
-        color: #FFFFFF;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .projects>h1 {
-        font-weight: 600;
-        font-size: 24px;
-        margin: 40px 207px 24px 26px;
-    }
-
-    .project-colum {
-        display: flex;
-        flex-direction: column;
-        margin: 0 24px 40px 24px;
-    }
-
-    .left-container {
-        margin-right: 0;
-    }
-
-    .project-container {
-        margin: 0 24px 24px 0;
-    }
-
-    .project-photo {
-        max-width: 95%;
-        height: 130px;
-        border-left: 4px solid #00D2DF;
-        margin-bottom: 24px;
-        background-color: #0C0C0C;
-    }
-
-    .project-title {
-        font-weight: 500;
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
-
-    .project-desc {
-        max-width: 95%;
-        font-weight: 300;
-        font-size: 14px;
-        color: #C4C4C4;
-        margin-bottom: 26px;
-    }
-
-    .btn-project {
-        display: flex;
-        justify-content: center;
-        height: 45px;
-        margin-bottom: 50px;
-        width: 90%;
-    }
-
-    .btn-project>img {
-        margin-right: 10px;
-    }
-
-    /*#################### FOOTER ##################*/
-
-    .footer-info {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: 400;
-        font-size: 14px;
-        color: #C4C4C4;
-        margin: 25px 26px 28px 24px;
-    }
-
-    #footer-logo {
-        margin-left: 13px;
-    }
-
-    #sponsor {
-        margin-right: 26px;
-    }
-
-}
-
-/*############## TABLETS ##########################*/
-@media screen and (max-width: 768px) {
-    .endpoints {
-        color: deeppink;
-    }
-
-    header {
-        display: flex;
-        justify-content: center;
-        width: 100vw;
-        margin-top: -15px;
         position: inherit;
         background-color: #0C0C0C;
-
     }
 
-    nav {
+    nav{
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
+        width: 100%;
     }
 
     .list {
@@ -772,16 +46,6 @@ footer {
 
     .dropdown {
         display: inline-block;
-    }
-
-    header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar {
-        margin: 1rem;
     }
 
     #dropIcon {
@@ -793,6 +57,8 @@ footer {
     .dropdown {
         position: relative;
         display: inline-block;
+        margin-left: -5rem;
+        padding-left: -1rem;
     }
 
     /* Style the dropdown button */
@@ -842,9 +108,7 @@ footer {
     }
 
     .line {
-        height: 1px;
-        background-color: #151515;
-        margin-top: 10px;
+        display: none;
     }
 
     .title {
@@ -853,8 +117,6 @@ footer {
         align-items: center;
         color: #00D2DF;
         font-size: 24px;
-        margin-right: 100px;
-
     }
 
     ul {
@@ -889,8 +151,8 @@ footer {
     }*/
 
     .header-main {
-        padding-top: 80px;
-        margin-left: 70px;
+        padding-top: 40px;
+        margin-left: 35px;
         color: #FFFFFF;
     }
 
@@ -1003,7 +265,7 @@ footer {
         padding: auto;
     }
 
-    .about-buttons{
+    .about-buttons {
         margin: auto;
     }
 
@@ -1219,15 +481,890 @@ footer {
         border-bottom: 4px solid #00D2DF;
     }
 
-
 }
 
 
-/*############## LARGE ##########################*/
-@media screen and (min-width: 1200px) {
+    /*############## TABLETS ##########################*/
+    @media screen and (min-width: 601px) {
+        .endpoints {
+            color: deeppink;
+        }
 
-    .endpoints {
-        color: deeppink;
+        header {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            margin-top: -15px;
+            position: inherit;
+            background-color: #0C0C0C;
+
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .list {
+            display: none;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #dropIcon {
+            width: 30px;
+            height: 30px;
+        }
+
+        /* Style the dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style the dropdown button */
+        .dropdown button {
+            background-color: #0C0C0C;
+            color: white;
+            padding: 12px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Style the dropdown menu */
+        .dropdown .menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #0C0C0C;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            display: none;
+
+        }
+
+        /* Show the dropdown menu when hovering over the container */
+        .dropdown:hover .menu {
+            display: block;
+        }
+
+        /* Style the dropdown items */
+        .dropdown .menu a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Style the dropdown items when hovering over them */
+        .dropdown .menu a:hover {
+            background-color: #0C0C0C;
+            color: #10D7E2;
+        }
+
+        a {
+            color: #FFFFFF;
+        }
+
+        .line {
+            height: 1px;
+            background-color: #151515;
+            margin-top: 10px;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #00D2DF;
+            font-size: 24px;
+            margin-right: 100px;
+
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            color: #C4C4C4;
+            font-size: 18px;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.2rem;
+            border-right: 1px solid #151515;
+            width: 150px;
+            height: 50px;
+        }
+
+
+        .nav-bar:hover {
+            background-color: #09090B;
+            border-bottom: 4px solid #10D7E2;
+        }
+
+        /*
+    .list > .nav-bar:nth-last-child(-n + 1){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }*/
+
+        .header-main {
+            padding-top: 80px;
+            margin-left: 70px;
+            color: #FFFFFF;
+        }
+
+        .name {
+            color: #00D2DF;
+            font-size: 42px;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 70px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #151515;
+            width: 150px;
+            height: 50px;
+            border: 2px solid;
+            color: #FFFFFF;
+            font-size: 16px;
+            margin-right: 30px;
+        }
+
+        #btn-header {
+            margin-bottom: 50px;
+        }
+
+        .border-color-purple {
+            border-image: linear-gradient(to right, #D24074, #6518B4) 1;
+        }
+
+        .border-color-purple:hover {
+            border-image: linear-gradient(to right, #6518B4, #D24074) 1;
+        }
+
+        .border-color-blue {
+            border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
+        }
+
+        .border-color-blue:hover {
+            border-image: linear-gradient(to right, #10D7E2, #9358F7) 1;
+        }
+
+        .btn>img {
+            height: 20px;
+        }
+
+        /*######################## END OF HEADER #################################*/
+
+        /*########################## ABOUT ME ####################################*/
+
+        .about-me {
+            background-color: #09090B;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            height: auto;
+        }
+
+        .sobre-info {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            color: #FFFFFF;
+            height: 400px;
+        }
+
+        #photo {
+            width: 250px;
+            height: 250px;
+            border-left: 4px solid #00D2DF;
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+
+
+        .sobre-info>h2 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+
+        .sobre-info>h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .sobre-info>p {
+            width: 530px;
+            height: 96px;
+            font-weight: 300;
+            font-size: 18px;
+
+        }
+
+        .about-desc {
+            text-align: justify;
+            padding-bottom: 2rem;
+            font-weight: 300;
+            font-size: 14px !important;
+            max-width: 350px;
+            color: #C4C4C4;
+            padding: auto;
+        }
+
+        .about-buttons {
+            margin: auto;
+        }
+
+        /*######################## END OF ABOUT ME #################################*/
+
+        .experiencias {
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .exp-test {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #exph2 {
+            font-weight: 600;
+            font-size: 24px;
+            margin: 100px 1102px 26px 180px;
+        }
+
+        .exp-buttons {
+            display: flex;
+            flex-direction: column;
+            margin-left: 180px;
+        }
+
+        .btns {
+            background-color: #151515;
+        }
+
+        .exp-topics {
+            width: 193px;
+            height: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #C4C4C4;
+            font-weight: 300;
+            font-size: 18px;
+            border: none;
+            margin-top: 26px;
+            border-left: 4px solid #2c2c2e;
+
+        }
+
+        .active {
+            border-left: 4px solid #00D2DF;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+
+        .exp-soft {
+            display: flex;
+            flex-direction: column;
+            margin: 26px 342px 241px 88px;
+        }
+
+        .exp-zazz {
+            display: flex;
+            flex-direction: column;
+            margin: 26px 342px 241px 88px;
+            display: none;
+        }
+
+
+        .exp-header {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: auto;
+        }
+
+        #exp-title {
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 26px;
+        }
+
+        #exp-data {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 26px;
+        }
+
+        .exp-desc {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            min-height: 110px;
+        }
+
+        #exp-company {
+            font-family: Inter;
+            color: #00D2DF;
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 26px;
+            margin-right: 400px;
+            text-align: center;
+        }
+
+        #exp-job {
+            font-weight: 300;
+            font-size: 18px;
+            color: #C4C4C4;
+        }
+
+        /*######################## END OF EXPERIENCES#################################*/
+
+        /*######################## PROJECTS #################################*/
+
+        .projects {
+            background-color: #09090B;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .projects>h1 {
+            font-weight: 600;
+            font-size: 24px;
+            margin: 100px 1133px 60px 180px;
+        }
+
+
+        .project-colum {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .left-container {
+            margin-right: 180px !important;
+        }
+
+        .project-container {
+            width: 100%;
+            margin: 60px 20px 90px 180px;
+        }
+
+
+
+        .project-photo {
+            width: 530px;
+            height: 200px;
+            border-left: 4px solid #00D2DF;
+            margin-bottom: 40px;
+            background-color: #0C0C0C;
+        }
+
+        .project-title {
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .project-desc {
+            max-width: 100%;
+            text-align: justify;
+            font-weight: 300;
+            font-size: 16px;
+            color: #C4C4C4;
+            margin-bottom: 26px;
+        }
+
+        .btn-project {
+            width: 141px;
+            height: 45px;
+        }
+
+        /*######################## END OF PROJECTS #################################*/
+
+        /*######################## FOOTER #################################*/
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-size: 16px;
+            color: #C4C4C4;
+            margin: 41px 0 40px 178px;
+        }
+
+        #footer-logo {
+            margin-left: 13px;
+        }
+
+        #sponsor {
+            margin-right: 100px;
+        }
+
+        .footer-social {
+            width: 40px;
+            height: 40px;
+        }
+
+        .footer-social:hover {
+            border-bottom: 4px solid #00D2DF;
+        }
+
+
     }
 
-}
+    /*############## LARGE ##########################*/
+    @media screen and (min-width: 768px) {
+
+        .endpoints {
+            color: deeppink;
+        }
+
+        /*######################## HEADER #################################*/
+
+        header {
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            margin-top: -15px;
+            position: fixed;
+            background-color: #0C0C0C;
+
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .dropdown {
+            display: none;
+        }
+
+        a {
+            color: #FFFFFF;
+        }
+
+        #countryIcon {
+            width: 50px;
+            height: 50px;
+            padding: .4rem;
+        }
+
+        .line {
+            height: 1px;
+            background-color: #151515;
+            margin-top: 10px;
+        }
+
+        .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #00D2DF;
+            font-size: 24px;
+            margin-right: 100px;
+
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            color: #C4C4C4;
+            font-size: 18px;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.2rem;
+            border-right: 1px solid #151515;
+            width: 150px;
+            height: 50px;
+        }
+
+
+        .nav-bar:hover {
+            background-color: #09090B;
+            border-bottom: 4px solid #10D7E2;
+        }
+
+        /*
+.list > .nav-bar:nth-last-child(-n + 1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+        .header-main {
+            padding-top: 130px;
+            margin-left: 180px;
+            color: #FFFFFF;
+        }
+
+        .name {
+            color: #00D2DF;
+            font-size: 64px;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            margin-top: 70px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #151515;
+            width: 150px;
+            height: 50px;
+            border: 2px solid;
+            color: #FFFFFF;
+            font-size: 16px;
+            margin-right: 30px;
+        }
+
+        #btn-header {
+            margin-bottom: 200px;
+        }
+
+        .border-color-purple {
+            border-image: linear-gradient(to right, #D24074, #6518B4) 1;
+        }
+
+        .border-color-purple:hover {
+            border-image: linear-gradient(to right, #6518B4, #D24074) 1;
+        }
+
+        .border-color-blue {
+            border-image: linear-gradient(to right, #9358F7, #10D7E2) 1;
+        }
+
+        .border-color-blue:hover {
+            border-image: linear-gradient(to right, #10D7E2, #9358F7) 1;
+        }
+
+        .btn>img {
+            height: 20px;
+        }
+
+        /*######################## END OF HEADER #################################*/
+
+        /*########################## ABOUT ME ####################################*/
+
+        .about-me {
+            background-color: #09090B;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .sobre-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-direction: column;
+            color: #FFFFFF;
+        }
+
+        #photo {
+            width: 367px;
+            height: 367px;
+            margin: 100px 183px 98px 180px;
+            border-left: 4px solid #00D2DF;
+            padding: 0.5rem;
+        }
+
+        .sobre-info>h2 {
+            font-size: 24px;
+            margin-bottom: 40px;
+
+        }
+
+        .sobre-info>h3 {
+            font-size: 21px;
+            margin-bottom: 21px;
+
+        }
+
+        .sobre-info>p {
+            width: 530px;
+            height: 96px;
+            font-weight: 300;
+            font-size: 18px;
+
+        }
+
+        .about-desc {
+            text-align: justify;
+            margin-bottom: 20px;
+            font-weight: 300;
+            font-size: 18px;
+            color: #C4C4C4;
+
+        }
+
+        /*######################## END OF ABOUT ME #################################*/
+
+        .experiencias {
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .exp-test {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #exph2 {
+            font-weight: 600;
+            font-size: 24px;
+            margin: 100px 1102px 26px 180px;
+        }
+
+        .exp-buttons {
+            display: flex;
+            flex-direction: column;
+            margin-left: 180px;
+        }
+
+        .btns {
+            background-color: #151515;
+        }
+
+        .exp-topics {
+            width: 193px;
+            height: 55px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #C4C4C4;
+            font-weight: 300;
+            font-size: 18px;
+            border: none;
+            margin-top: 26px;
+            border-left: 4px solid #2c2c2e;
+
+        }
+
+        .active {
+            border-left: 4px solid #00D2DF;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 18px;
+        }
+
+
+        .exp-soft {
+            display: flex;
+            flex-direction: column;
+            margin: 26px 342px 241px 88px;
+        }
+
+        .exp-zazz {
+            display: flex;
+            flex-direction: column;
+            margin: 26px 342px 241px 88px;
+            display: none;
+        }
+
+
+        .exp-header {
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            width: auto;
+        }
+
+        #exp-title {
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 26px;
+        }
+
+        #exp-data {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            margin-bottom: 26px;
+        }
+
+        .exp-desc {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            min-height: 110px;
+        }
+
+        #exp-company {
+            font-family: Inter;
+            color: #00D2DF;
+            font-weight: 500;
+            font-size: 16px;
+            margin-bottom: 26px;
+            margin-right: 400px;
+            text-align: center;
+        }
+
+        #exp-job {
+            font-weight: 300;
+            font-size: 18px;
+            color: #C4C4C4;
+        }
+
+        /*######################## END OF EXPERIENCES#################################*/
+
+        /*######################## PROJECTS #################################*/
+
+        .projects {
+            background-color: #09090B;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        .projects>h1 {
+            font-weight: 600;
+            font-size: 24px;
+            margin: 100px 1133px 60px 180px;
+        }
+
+
+        .project-colum {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .left-container {
+            margin-right: 180px !important;
+        }
+
+        .project-container {
+            width: 100%;
+            margin: 60px 20px 90px 180px;
+        }
+
+
+
+        .project-photo {
+            width: 530px;
+            height: 200px;
+            border-left: 4px solid #00D2DF;
+            margin-bottom: 40px;
+            background-color: #0C0C0C;
+        }
+
+        .project-title {
+            font-weight: 500;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .project-desc {
+            max-width: 100%;
+            text-align: justify;
+            font-weight: 300;
+            font-size: 16px;
+            color: #C4C4C4;
+            margin-bottom: 26px;
+        }
+
+        .btn-project {
+            width: 141px;
+            height: 45px;
+        }
+
+        /*######################## END OF PROJECTS #################################*/
+
+        /*######################## FOOTER #################################*/
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+        }
+
+        .footer-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 400;
+            font-size: 16px;
+            color: #C4C4C4;
+            margin: 41px 0 40px 178px;
+        }
+
+        #footer-logo {
+            margin-left: 13px;
+        }
+
+        #sponsor {
+            margin-right: 100px;
+        }
+
+        .footer-social {
+            width: 40px;
+            height: 40px;
+        }
+
+        .footer-social:hover {
+            border-bottom: 4px solid #00D2DF;
+        }
+
+    }
