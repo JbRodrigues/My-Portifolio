@@ -157,8 +157,8 @@ body {
     }*/
 
     .header-main {
-        padding-top: 40px;
-        margin-left: 35px;
+        padding: .5rem;
+        margin: .5rem;
         color: #FFFFFF;
     }
 
@@ -213,14 +213,14 @@ body {
 
     .about-me {
         background-color: #09090B;
-        height: 400px;
+        
     }
 
     .sobre-info {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
         color: #FFFFFF;
         height: auto;
     }
@@ -232,7 +232,8 @@ body {
 
     .sobre-info>h2 {
         font-size: 20px;
-        margin: 1rem 0 .5rem 1rem;
+        margin: .5rem;
+        align-items: start;
     }
 
     .sobre-info>h3 {
@@ -626,7 +627,7 @@ body {
         border: 2px solid;
         color: #FFFFFF;
         font-size: 16px;
-        
+
     }
 
     #btn-header {
